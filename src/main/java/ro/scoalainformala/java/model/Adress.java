@@ -22,4 +22,9 @@ public class Adress {
     public String getCity() {
         return city;
     }
+
+    @Override
+    public String toString() {
+        return street + ", " + city + ", " + country.getName();
+    }
 }
