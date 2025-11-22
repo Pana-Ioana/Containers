@@ -11,20 +11,12 @@ public class Adress {
         this.country = country;
     }
 
-    public Country getCountry() {
-        return country;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
     @Override
     public String toString() {
         return street + ", " + city + ", " + country.getName();
+    }
+
+    public Country getCountry() {
+        return country;
     }
 }

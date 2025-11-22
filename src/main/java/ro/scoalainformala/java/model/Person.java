@@ -2,7 +2,7 @@ package ro.scoalainformala.java.model;
 
 import java.util.Objects;
 
-public class Person {
+public abstract class Person {
     protected String name;
     protected int age;
 
@@ -36,4 +36,5 @@ public class Person {
     public int hashCode() {
         return Objects.hash(name, age);
     }
+
 }

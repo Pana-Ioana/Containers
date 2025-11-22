@@ -21,9 +21,4 @@ public class Hobby {
     public List<Adress> getAdressList() {
         return adressList;
     }
-
-    public void addAddress(Adress address) {
-        this.adressList.add(address);
-    }
-
 }
